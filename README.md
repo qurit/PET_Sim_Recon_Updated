@@ -47,6 +47,8 @@ Contact
 For support, contributions and questions, please contact s.ashrafinia (at) gmail (dot) com
 
 
+
+
 **(1) Changes from the original code**
 1) Compatibility with both Activity and Concentration map (i.e., user can freely choose it)
 2) Compatibility with Multi-Unit (i.e., Activity: [Bq], [kBq], [MBq], Concentration: [Bq/ml], [kBq/ml], [MBq/ml])
