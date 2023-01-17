@@ -99,10 +99,6 @@ LOAD_ATTENUATION = 1;   % Load attenuation map or consider a matrix of zeros
 %CORRECT_IMG_UPTKE = 0;  % Depends if the initial image is in the units of activity of concentration. If it's already concent., that usually has to be, there's no need to do it.
 LOAD_NORMALIZATION = 1; % Load normalization image or consider a matrix of ones
 
-%SAVE        = 1;        % If save the final result
-%DIRECTORY = 'C:\Users\LEE\Documents\MATLAB\1_QURIT_Project\Recon_KNLEE\';         % Saving Directory
-
-
 %% Input Data %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Tested only with 256x256 Matrix %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Loading Activity or Concentration Map %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
