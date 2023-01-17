@@ -26,4 +26,5 @@ The Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction,
 3) Sensitivity of Siemens Biograph Vision Quadra: *Prenosil GA, Sari H, Fürstner M, Afshar-Oromieh A, Shi K, Rominger A, Hentschel M. Performance Characteristics of the Biograph Vision Quadra PET/CT System with a Long Axial Field of View Using the NEMA NU 2-2018 Standard. J Nucl Med. 2022 Mar;63(3):476-484. doi: 10.2967/jnumed.121.261972. Epub 2021 Jul 22. PMID: 34301780.*
 
 **(5) Contact**
+
 Dr. Arman Rahmim (arman.rahmim@ubc.ca) & Mr. Kyung-Nam Lee (leeronaldo001@gmail.com)
