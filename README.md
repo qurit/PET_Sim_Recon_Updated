@@ -22,9 +22,9 @@ The Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction,
 3) The folder "output": directory where you will get reconstructed images through this code
 
 **(4) References**
-1) Original code: * *Ashrafinia S, Mohy-Ud-Din H, Karakatsanis NA, Jha AK, Casey ME, Kadrmas DJ, Rahmim A. Generalized PSF modeling for optimized quantitation in PET imaging. Phys Med Biol. 2017 Jun 21;62(12):5149-5179. doi: 10.1088/1361-6560/aa6911. Epub 2017 Mar 24. PMID: 28338471.* *
-2) Sensitivity of GE Discovery MI: * *Chicheportiche A, Marciano R, Orevi M. Comparison of NEMA characterizations for Discovery MI and Discovery MI-DR TOF PET/CT systems at different sites and with other commercial PET/CT systems. EJNMMI Phys. 2020 Jan 14;7(1):4. doi: 10.1186/s40658-020-0271-x. PMID: 31938953; PMCID: PMC6960280.* *
-3) Sensitivity of Siemens Biograph Vision Quadra: * *Prenosil GA, Sari H, Fürstner M, Afshar-Oromieh A, Shi K, Rominger A, Hentschel M. Performance Characteristics of the Biograph Vision Quadra PET/CT System with a Long Axial Field of View Using the NEMA NU 2-2018 Standard. J Nucl Med. 2022 Mar;63(3):476-484. doi: 10.2967/jnumed.121.261972. Epub 2021 Jul 22. PMID: 34301780.* *
+1) Original code: *Ashrafinia S, Mohy-Ud-Din H, Karakatsanis NA, Jha AK, Casey ME, Kadrmas DJ, Rahmim A. Generalized PSF modeling for optimized quantitation in PET imaging. Phys Med Biol. 2017 Jun 21;62(12):5149-5179. doi: 10.1088/1361-6560/aa6911. Epub 2017 Mar 24. PMID: 28338471.*
+2) Sensitivity of GE Discovery MI: *Chicheportiche A, Marciano R, Orevi M. Comparison of NEMA characterizations for Discovery MI and Discovery MI-DR TOF PET/CT systems at different sites and with other commercial PET/CT systems. EJNMMI Phys. 2020 Jan 14;7(1):4. doi: 10.1186/s40658-020-0271-x. PMID: 31938953; PMCID: PMC6960280.*
+3) Sensitivity of Siemens Biograph Vision Quadra: *Prenosil GA, Sari H, Fürstner M, Afshar-Oromieh A, Shi K, Rominger A, Hentschel M. Performance Characteristics of the Biograph Vision Quadra PET/CT System with a Long Axial Field of View Using the NEMA NU 2-2018 Standard. J Nucl Med. 2022 Mar;63(3):476-484. doi: 10.2967/jnumed.121.261972. Epub 2021 Jul 22. PMID: 34301780.*
 
 **(5) Contact**
 1) Regarding original code: Dr. Saeed Ashrafinia (s.ashrafinia@gmail.com)
