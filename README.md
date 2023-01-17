@@ -44,27 +44,28 @@ Please being with "Main_Recon.m". More explanation in given in the comments sect
 
 Contact
 
-For support, contributions and questions, please contact s.ashrafinia (at) gmail (dot) com
+For support, contributions and questions, please contact (s.ashrafinia@gmail.com)
 
 
 
-**(2) Changes from the original code**
+**(1) Changes from the original code**
 1) Compatibility with both Activity and Concentration map (i.e., user can freely choose it)
 2) Compatibility with Multi-Unit (i.e., Activity: [Bq], [kBq], [MBq], Concentration: [Bq/ml], [kBq/ml], [MBq/ml])
 3) Adding a couple of Up-To-Date Sensitivities for other scanners in addition to that of GE Discovery RX (i.e.,  GE Discovery MI, Siemens Biograph Vision Quadra)
 4) Removing the variable "TotalCounts" in the main code to avoid unnecessary confusion; the variable will be used internally in the function "calib_factor"
 5) Adding some comments for better clarification and easy usage
 
-**(3) How to Use**
+**(2) How to Use**
 1) Install the updated code
 2) Open "Main_PET_sim_recon" file
 3) Execute the code as a test
 4) Explore the code and results by changing inputs and parameter values you might want to use
 
-**(4) Improtant Notes**
+**(3) Improtant Notes**
 1) Current folder in Matlab should be same with the directory of the main file above (i.e., "Main_PET_sim_recon")
 2) The folder "input": directory where you need to save your true image
 3) The folder "output": directory where you will get reconstructed images through this code
 
-**(5) Contact**
+**(4) Contact**
+
 Dr. Arman Rahmim (arman.rahmim@ubc.ca) & Mr. Kyung-Nam Lee (leeronaldo001@gmail.com)
