@@ -50,6 +50,7 @@ For support, contributions and questions, please contact s.ashrafinia (at) gmail
 **(2) Important Info. regarding the updated code**
 
 **- Changes from the original code**
+
     1) Compatibility with both Activity and Concentration map (i.e., user can freely choose it)
     2) Compatibility with Multi-Unit (i.e., Activity: [Bq], [kBq], [MBq], Concentration: [Bq/ml], [kBq/ml], [MBq/ml])
     3) Adding a couple of Up-To-Date Sensitivities for other scanners in addition to that of GE Discovery RX (i.e.,  GE Discovery MI, Siemens Biograph Vision Quadra)
