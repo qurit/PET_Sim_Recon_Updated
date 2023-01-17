@@ -13,8 +13,8 @@ The Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction,
 1) Install the original code (Link: https://github.com/ashrafinia/PET_sim_recon)
 2) Copy and Paste our updated code into the same directory of original code, and Overwrite it
 3) Open "Main_PET_sim_recon" file
-4) Run the code 
-5) Explore the code and results by changing parameter values you might want to modify
+4) Run the code as a test
+5) Explore the code and results by changing inputs and parameter values you might want to use
 
 **(3) Improtant Notes**
 1) Current folder in Matlab should be same with the directory of the main file above
