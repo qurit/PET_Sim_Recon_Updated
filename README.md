@@ -2,7 +2,7 @@
 The Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction, Link: https://github.com/ashrafinia/PET_sim_recon)
 
 
-**"please use the following reference for the original code"**
+**Please use the following reference regarding the original code**
 
 Summary:
 
