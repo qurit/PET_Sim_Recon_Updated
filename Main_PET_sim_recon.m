@@ -146,8 +146,8 @@ ScanDuration    = 3;   % Scan duration in minutes
 
 % Note that if you use sensitivity values below for 3D, even though we're still simulating in 2D, we amplify the sensitivity to better reflect a 3D scanner
 %VCT_sensitivity = 7300/1e6; % 7.3 [cps/kBq] = cps/Mdps MBq->KBq; The number is 1700 for 2D, and 7300 for 3D for GE Discovery RX scanner.
-%VCT_sensitivity = 13300/1e6; % 13.3 [cps/kBq] ==> GE Discovery MI Gen2
-VCT_sensitivity = 176000/1e6; % 176 [cps/kBq] ==> Siemens Biograph Vision Quadra
+%VCT_sensitivity = 13300/1e6; % 13.3 [cps/kBq] ==> GE Discovery MI (based on line source results)
+VCT_sensitivity = 176000/1e6; % 176 [cps/kBq] ==> Siemens Biograph Vision Quadra (based on line source results)
 
 ydim            = xdim;
 d_z             = 2; % [mm] for Longitudinal Direction
