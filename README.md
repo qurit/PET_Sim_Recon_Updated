@@ -2,7 +2,52 @@
 The Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction, Link: https://github.com/ashrafinia/PET_sim_recon)
 
 
-**(1) Major Changes from the original code**
+**"please use the following reference for the original code"**
+
+Summary:
+
+• Analytic simulation of PET data (with and without noise)
+
+• Begin with your own image, or you can use our included NEMA NU-2 phantom generator
+
+• Enables noisy and noise-free reconstructions.
+
+• Statistical PET image reconstruction framework using 2D ordered-subset expectation maximization (OS-EM) algorithm
+
+• Incorporate attenuation and normalization modeling and correction using a CT sinogram and detector normalization map, respectively.
+
+• Integrated generalized PSF modeling (resolution modeling) to model true PSF, no-PSF, as well as under- and overestimated PSF in reconstruction
+
+• Can vary a range of data acquisition and image reconstruction parameters
+
+• Capable of simulating and reconstructing signal (tumor) absent, i.e. replacing the signal value with the background, as well as signal present, to study the effects of model parameters on the background in the exact same location as the tumor.
+
+Reference:
+
+Please use the following reference if you publish results obtained using this software tool:
+
+S. Ashrafinia, et al., “Generalized PSF modeling for optimized quantitative-task performance”, Phys. Med. Biol., vol. 62, pp. 5149-5179, 2017.
+
+Technical Description:
+
+This Matlab®-based framework incorporates PET forward projection and reconstruction steps.
+
+The framework models many realistic PET reconstruction processes, such as decay of radioactivity, ability to perform attenuation correction using a CT sinogram as well as detector sensitivity normalization using normalization sinogram. The framework is capable of reconstructing noisy and/or noise-free, as well as signal present/absent. For the noisy reconstruction it incorporates realistic random Poisson noise to the data to generate different noise realizations.
+
+A single slice can be loaded as the true image. The PSF modeling has different settings including no PSF, true PSF, and our proposed generalized PSF modeling that uses under-and overestimated PSF kernels in the reconstruction as described in the paper above. The true PSF is derived analytically from modeling PET resolution degradation effects including photon non-collinearity, inter-crystal scattering and inter-crystal penetration, and is being used in the forward projection. In the reconstruction, either the true PSF can be used to model PSF reconstruction. Other PSF kernels are under- or overestimated version of this analytically derived true PSF that was used in the forward projection.
+
+Images are saved at the end of every iteration, for every noise realization, and every PSF setting. The framework provides beginning with (forward projecting) a higher resolution image, while reconstructing a lower resolution image, which is a more realistic representation of imaging objects.
+
+We also include our digital NEMA phantom generation code that generates a NEMA NU-2 image quality phantom according to NEMA standards to use as a true image.
+
+Please being with "Main_Recon.m". More explanation in given in the comments section of each file.
+
+Contact
+
+For support, contributions and questions, please contact s.ashrafinia (at) gmail (dot) com
+
+
+**(1) Changes from the original code**
 1) Compatibility with both Activity and Concentration map (i.e., user can freely choose it)
 2) Compatibility with Multi-Unit (i.e., Activity: [Bq], [kBq], [MBq], Concentration: [Bq/ml], [kBq/ml], [MBq/ml])
 3) Adding a couple of Up-To-Date Sensitivities for other scanners in addition to that of GE Discovery RX (i.e.,  GE Discovery MI, Siemens Biograph Vision Quadra)
@@ -20,11 +65,6 @@ The Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction,
 2) The folder "input": directory where you need to save your true image
 3) The folder "output": directory where you will get reconstructed images through this code
 
-**(4) References**
-1) Original code: *Ashrafinia S, Mohy-Ud-Din H, Karakatsanis NA, Jha AK, Casey ME, Kadrmas DJ, Rahmim A. Generalized PSF modeling for optimized quantitation in PET imaging. Phys Med Biol. 2017 Jun 21;62(12):5149-5179. doi: 10.1088/1361-6560/aa6911. Epub 2017 Mar 24. PMID: 28338471.*
-2) Sensitivity of GE Discovery MI: *Chicheportiche A, Marciano R, Orevi M. Comparison of NEMA characterizations for Discovery MI and Discovery MI-DR TOF PET/CT systems at different sites and with other commercial PET/CT systems. EJNMMI Phys. 2020 Jan 14;7(1):4. doi: 10.1186/s40658-020-0271-x. PMID: 31938953; PMCID: PMC6960280.*
-3) Sensitivity of Siemens Biograph Vision Quadra: *Prenosil GA, Sari H, Fürstner M, Afshar-Oromieh A, Shi K, Rominger A, Hentschel M. Performance Characteristics of the Biograph Vision Quadra PET/CT System with a Long Axial Field of View Using the NEMA NU 2-2018 Standard. J Nucl Med. 2022 Mar;63(3):476-484. doi: 10.2967/jnumed.121.261972. Epub 2021 Jul 22. PMID: 34301780.*
-
-**(5) Contact**
+**(4) Contact**
 
 Dr. Arman Rahmim (arman.rahmim@ubc.ca) & Mr. Kyung-Nam Lee (leeronaldo001@gmail.com)
