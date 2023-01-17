@@ -7,7 +7,7 @@ The Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction,
 2) Compatibility with Multi-Unit (i.e., Activity: [Bq], [kBq], [MBq], Concentration: [Bq/ml], [kBq/ml], [MBq/ml])
 3) Adding a couple of Up-To-Date Sensitivities for other scanners in addition to that of GE Discovery RX (i.e.,  GE Discovery MI, Siemens Biograph Vision Quadra)
 4) Removing the variable "TotalCounts" in the main code to avoid unnecessary confusion; the variable will be used internally in the function "calib_factor"
-5) Adding some comments for better clarification and easy usage of this program
+5) Adding some comments for better clarification and easy usage
 
 **(2) How to Use**
 1) Install the original code (Link: https://github.com/ashrafinia/PET_sim_recon)
@@ -17,7 +17,7 @@ The Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction,
 5) Explore the code and results by changing inputs and parameter values you might want to use
 
 **(3) Improtant Notes**
-1) Current folder in Matlab should be same with the directory of the main file above
+1) Current folder in Matlab should be same with the directory of the main file above (i.e., "Main_PET_sim_recon")
 2) The folder "input": directory where you need to save your true image
 3) The folder "output": directory where you will get reconstructed images through this code
 
