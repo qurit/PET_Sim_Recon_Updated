@@ -4,7 +4,7 @@ The Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction,
 
 **(1) Main changes from the original code**
 1) Compatibility with both Activity and Concentration map (i.e., user can freely choose it)
-2) Compatibility with Multi Units (i.e., Activity: [Bq], [kBq], [MBq], Concentration: [Bq/ml], [kBq/ml], [MBq/ml])
+2) Compatibility with Multi-Units (i.e., Activity: [Bq], [kBq], [MBq], Concentration: [Bq/ml], [kBq/ml], [MBq/ml])
 3) Adding a couple of Up-To-Date Sensitivities for other scanners in addition to that of GE Discovery RX (i.e.,  GE Discovery MI, Siemens Biograph Vision Quadra)
 4) Removing the variable "TotalCounts" in the main code to avoid unnecessary confusion.; the variable will be used internally in the function "calib_factor"
 5) Adding some comments for better clarification and easy usage of this program
