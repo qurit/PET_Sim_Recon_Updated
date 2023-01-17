@@ -28,4 +28,4 @@ The Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction,
 
 **(5) Contact**
 1) Regarding original code: Dr. Saeed Ashrafinia (s.ashrafinia@gmail.com)
-2) Updataed code: Dr. Arman Rahmim (arman.rahmim@ubc.ca) & Mr. Kyung-Nam Lee (leeronaldo001@gmail.com)
+2) Updated code: Dr. Arman Rahmim (arman.rahmim@ubc.ca) & Mr. Kyung-Nam Lee (leeronaldo001@gmail.com)
