@@ -1,5 +1,5 @@
 # PET_Sim_Recon_Updated
-Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction originally developed by Saeed Ashrafinia, Link: https://github.com/ashrafinia/PET_sim_recon)
+Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction originally developed by Saeed Ashrafinia, https://github.com/ashrafinia/PET_sim_recon)
 
 
 **(1) Important Info.**
