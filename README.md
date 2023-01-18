@@ -69,4 +69,4 @@ For support, contributions and questions, please contact (s.ashrafinia@gmail.com
 
 **(5) Contact**
 ---------------
-Dr. Arman Rahmim (arman.rahmim@ubc.ca) & Mr. Kyung-Nam Lee (leeronaldo001@gmail.com)
+- Dr. Arman Rahmim (arman.rahmim@ubc.ca) & Mr. Kyung-Nam Lee (leeronaldo001@gmail.com)
