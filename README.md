@@ -1,8 +1,8 @@
 # PET_Sim_Recon_Updated
-The Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction, Link: https://github.com/ashrafinia/PET_sim_recon)
+The Update of PET_Sim_Recon code (i.e., PET simulation and image reconstruction originally developed by Saeed Ashrafinia, Link: https://github.com/ashrafinia/PET_sim_recon)
 
 
-**(1) Important Info. regarding the original code**
+**(1) Important Info.**
 ---------------------------------------------------
   Summary:
   
@@ -46,7 +46,7 @@ For support, contributions and questions, please contact (s.ashrafinia@gmail.com
 
 
 
-**(2) Changes from the original code**
+**(2) Changes from original code**
 ---------------------------------------
 1) Compatibility with both Activity and Concentration map (i.e., user can freely choose it)
 2) Compatibility with Multi-Unit (i.e., Activity: [Bq], [kBq], [MBq], Concentration: [Bq/ml], [kBq/ml], [MBq/ml])
@@ -63,10 +63,10 @@ For support, contributions and questions, please contact (s.ashrafinia@gmail.com
 
 **(4) Improtant Notes**
 -----------------------
-1) Current folder in Matlab should be same with the directory of the main file above (i.e., "Main_PET_sim_recon")
+1) Current folder in Matlab should be same as the directory of the main file above (i.e., "Main_PET_sim_recon")
 2) The folder "input": directory where you need to save your true image
 3) The folder "output": directory where you will get reconstructed images through this code
 
 **(5) Contact**
 ---------------
-- Dr. Arman Rahmim (arman.rahmim@ubc.ca) & Mr. Kyung-Nam Lee (leeronaldo001@gmail.com)
+- Arman Rahmim (arman.rahmim@ubc.ca) & Kyung-Nam Lee (leeronaldo001@gmail.com)
